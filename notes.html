@@ -1,0 +1,86 @@
+<div class="cart__item">
+    <div class="cart__item-img">
+        <img src="${product.image}" alt="${product.name}" class="cart__item-img-item">
+    </div>
+    <div class="cart__item-content">
+        <h3 class="cart__item-title">${product.name}</h3>
+        <p class="cart__item-text">
+            ${product.description}
+        </p>
+        <div class="cart__item-btn">
+            <span class="cart__item-btn-text">$ ${product.price}</span>
+            <button class="cart__item-btn-item" data-id="${product.id}">
+                <i class='bx bx-x'></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- ---------------  -->
+
+<div class="product-card">
+    <div class="product-card-image">
+        <img src="https://source.unsplash.com/xoxnfVIE7Qw" alt="Polymer">
+    </div>
+    <div class="product-card-name">
+        <h3>Drills 3/8 inch - Steel</h3>
+    </div>
+    <div class="product-card-info">
+        <p>Drill for steel, 3/8 inch diameter, tungsten coating </p>
+        <p><span>$7 USD</span></p>
+    </div>
+    <div class="cart-add">
+        <button class="cart-add-btn">Add to cart</button>
+    </div>
+</div>
+<div class="product-card">
+    <div class="product-card-image">
+        <img src="https://source.unsplash.com/VNlZmgQ5iVc" alt="Polymer">
+    </div>
+    <div class="product-card-name">
+        <h3>Steel structure H - 3 M</h3>
+    </div>
+    <div class="product-card-info">
+        <p>Construction steel structure; H reference, with 3 meters length</p>
+        <p><span>$750 USD</span></p>
+    </div>
+    <div class="cart-add">
+        <button class="cart-add-btn">Add to cart</button>
+    </div>
+</div>
+<div class="product-card">
+    <div class="product-card-image">
+        <img src="https://source.unsplash.com/tvczNEOPVDo" alt="Polymer">
+    </div>
+    <div class="product-card-name">
+        <h3>Screw M8 milimeter</h3>
+    </div>
+    <div class="product-card-info">
+        <p>Screw for wood, M8 milimeter, in steel, in plastic, in tugnsten coating</p>
+        <p><span>$1,5 USD</span></p>
+    </div>
+    <div class="cart-add">
+        <button class="cart-add-btn">Add to cart</button>
+    </div>
+</div>
+
+<!-- ------- -->
+<div class="product-card">
+    <div class="product-card-image">
+        <img src="${product?.image}" alt="${product.name}" class="cart__item-img-item">
+    </div>
+    <div class="product-card-name cart__item-title">
+        <h3>${product.name}</h3>
+    </div>
+    <div class="product-card-info cart__item-text">
+        <p>${product.description}</p>
+        <p class="cart__item-btn-text"><span>$ ${product.price}</span></p>
+    </div>
+    <div class="cart-add">
+        <button class="cart__item-btn-item" data-id="${product.id}">
+            <i class='bx bx-x'></i>
+        </button>
+    </div>
+</div>

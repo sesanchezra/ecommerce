@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="/assets/img/supply.png" type="image/x-icon">
+    <title>Supply</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+
+            <!-- ---- Logo section ----- -->
+            <div class="navbar-logo">
+                <div class="navbar-logo-icon">
+                    <img src="/assets/img/supply.png" alt="Supply Logo">
+                </div>
+                <div class="navbar-logo-text">
+                    <h2>Supply</h2>
+                </div>
+            </div>
+
+            <!-- ---- Navbar list ----- -->
+            <div class="navbar-menu">
+                <ul class="navbar-menu-list">
+                    <li><a href="#">Home</a> </li>
+                    <li><a href="#product">Shop</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+
+            <!-- ---- Cart Button ----- -->
+            <div class="cart-btn">
+                <button id="cartBtn" class="car-btn-link">
+                  <i class='bx bxs-shopping-bag cart-btn-icon'></i>
+                </button>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="about-content">
+            <div class="about-container">
+                <div class="about-text">
+                    <h2>Connecting <span class="one">industries</span> , to speed up the <span class="two">production</span> </h2>
+                    </p>
+                </div>
+                <button  class="btn-shop"><a href="#product">Shop Now</a> </button>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="product" id="product">
+        <div class="product-container">
+            <div class="product-text">
+                <h2>Our Products</h2>
+            </div>
+            <div class="product-site" id="product-site">
+                
+            </div>
+            <div class="check-cart">
+                <button class="check-cart-btn">Go to Shopping Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <aside  id="wrapper__sidebar">
+        <div class="wrapper__close-btn">
+            <button class="wrapper-close">
+                <i class='bx bx-x'></i>
+            </button>
+        </div>
+        <div class="wrapper__sidebar-cart">
+          <h3 class="wrapper__sidebar-cart-title">Your Cart</h3>
+  
+          <!-- aquí se agregaran los productos al carrito -->
+          <div id="wrapper-cart" class="wrapper__sidebar-cart-items"></div>
+  
+          <!-- aquí se mostrará el total del carrito -->
+          <div class="wrapper__sidebar-cart-total">
+            <span class="wrapper__sidebar-cart-total-text">Total:</span>
+            <span id="cart-total" class="wrapper__sidebar-cart-total-price">$0</span>
+          </div>
+  
+          <!-- botón de pagar -->
+          <div class="wrapper__sidebar-cart-btn">
+            <button id="checkout" class="wrapper__sidebar-cart-btn-link">
+              <i class='bx bx-shopping-bag'></i>
+              <span class="wrapper__sidebar-cart-btn-text">Checkout</span>
+            </button>
+          </div>
+        </div>
+    </aside>
+
+    <div class="footer">
+
+    </div>
+    
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
